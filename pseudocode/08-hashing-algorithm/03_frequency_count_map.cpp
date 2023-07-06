@@ -27,6 +27,10 @@ int main()
         int q;
         cin>>q;
         map<int,int> hash;
+        /***
+         * Time Complexity: O(logn)// storing and geeting an items from map
+         * Time Complexity: O(1)// storing and geeting an items from unordered_map
+        */
 
         for(int i=0; i<n; i++){
             hash[arr[i]]++;
