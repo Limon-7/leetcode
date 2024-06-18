@@ -10,10 +10,6 @@ class Solution:
                 scores.append(2 * scores[-1])
             else:
                 scores.append(int(i))
-
-        c = 0
-
-        for j in scores:
-            c += j
+                
         return sum(scores)
 # SC:O(N)+O(N)=O(N)
