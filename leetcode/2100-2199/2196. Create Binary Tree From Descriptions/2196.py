@@ -26,5 +26,6 @@ class Solution:
                 return nodes[p]
 
         return None
+
 # TC: O(N)+O(N)~O(N)
 ## SC:O(N)+O(N)~O(N)
